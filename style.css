@@ -1,0 +1,331 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    margin-top: -16px;
+}
+body{
+    margin: 0;
+}
+/* header & section 1 */
+header{
+    background-color: #1f2937;
+    padding: 25px 115px;
+    height: 445px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 130px;
+    font-weight: 900;
+}
+#main-nav{
+    display: flex;
+}
+#main-nav ul{
+    list-style: none;
+
+}
+#main-nav ul li{
+    float: left;
+    margin-left: 10px;
+}
+#main-nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-main{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.main-text h1{
+    color: #f9faf8;
+    font-size:48px;
+    font-weight: bolder;
+    margin: 0;
+}
+.main-text p{
+    margin: 0;
+    color: #e5e7eb;
+    font-size:18px;
+}
+.btn{
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 36px;
+    width: 130px;
+}
+.image img{
+    display: flex;
+    justify-content: center;
+    height: 235px;
+    width: 525px;
+    background-color: gray;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+/* section 2 */
+
+.main{
+    height: 445px;
+}
+#some{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+}
+.container , .container-second{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    margin: 0 25px;
+}
+.item{
+    text-align: center;
+    width: 150px;
+    margin: 0 35px;
+    padding-top: 5px;
+}
+
+/* section 3 */
+.quote{
+    background-color: #e5e7eb;
+    height: 430px;
+    position: relative;
+}
+.quote p{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 820px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+figcaption{
+    position: absolute;
+    top: 70%;
+    right: 17%;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bolder;
+}
+/* section 4 */
+
+#sec4{
+
+    height: 350px;
+    position: relative;
+}
+.content-box{
+    height: 150px ;
+    width: 1025px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    position: absolute;
+    top: 25%;
+    left: 14%;
+}
+.allin{
+    padding: 45px 105px;
+}
+.allin h2,h5{
+    margin: 0;
+    color: #f9faf8;
+    width: 600px;
+}
+.allin h5 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+.btn-second{
+    float: right;
+}
+.btn-second button{
+    border: none;
+  background-color: transparent;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 8px 30px;
+  text-align: center;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+  right: 12%;
+
+
+}
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;    
+    background-color: #1f2937;
+
+    color: #fff;
+}
+
+/* respons */
+@media only screen and (max-width: 1080px){
+    header{
+        height: auto;
+        padding: 25px 40px;
+    }
+    .hero-main{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .logo a{
+        margin-left: 0;
+    }
+    #main-nav ul li{
+        /* margin-left: 0; */
+    }
+    .main-text h1{
+        font-size: 34px;
+        margin-top: 10px;
+    }
+    .main-text p{
+        font-size: 16px;
+    }
+    .btn{
+        height: 32px;
+        width: 120px;
+    }
+    .image img{
+        height: 200px;
+        width: 340px;
+        margin-left: 15px;
+    }
+    /* section 3 */
+    .main{
+        height: auto;
+    }
+    #some{
+        font-size: 32px;
+
+    }
+    .box{
+        width: 130px;
+        height: 130px;
+    }
+    .item{
+        margin: 0 20px;
+    }
+    .container-second{
+        padding-bottom: 50px;
+    }
+    /* section 4 */
+    #sec4{
+        height: 290px;
+    }
+    .quote{
+        height: 370px;
+    }
+    .quote p{
+        width: 700px;
+        font-size: 28px;
+        left: 10%;
+    }
+    .content-box{
+        width: 640px;
+        height: 130px;
+        left: 10%;
+    }
+    .allin{
+        padding: 40px 50px;
+    }
+    .allin h5{
+        font-size: 14px;
+    }
+    .btn-second button{
+        right: 8%;
+    }
+    /* footer */
+    footer{
+        padding: 10px;
+    }
+
+}
+@media only screen and (max-width: 800px){
+    .logo a{
+        font-size: 22px;
+    }
+    #main-nav ul li{
+        margin-left: 60px;
+    }
+    #main-nav ul li a{
+        font-size: 14px;
+    }
+    .main-text h1{
+        font-size: 40px;
+    }
+    .image{
+        display: none;
+    }
+    /* section 2 */
+    #some{
+        font-size: 28px;
+    }
+    .box{
+        width: 70px;
+        height: 70px;
+        margin: 0px 6px;
+    }
+    .item{
+        display: none;
+    }
+    .quote p{
+        width: 330px;
+        font-size: 22px;
+        left: 6%;
+    }
+    figcaption{
+        top: 75%;
+        right: 10%;
+        font-size: 20px;
+
+
+    }
+    /* section 4 */
+    .content-box{
+        width: 300px;
+        height: 180px;
+
+    }
+    .allin{
+        padding: 30px 12px;
+    }
+    .allin h2, h5{
+        width: auto;
+    }
+    .btn-second button{
+        right: 28%;
+        top: 65%;
+    }
+
+
+
+}
